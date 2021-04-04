@@ -1,0 +1,12 @@
+.produto {
+  height: 200px;
+  background: darkblue;
+  color: aliceblue;
+}
+
+.servicos {
+  height: 400px;
+  background: darkblue;
+  color: aliceblue;
+  margin-top: 10px;
+}

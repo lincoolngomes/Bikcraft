@@ -190,3 +190,27 @@ p {
 .call-to-action p {
   margin-bottom: 20px;
 }
+
+/* Portfólios */
+
+.portfolio {
+  width: 100%;
+  background: #000;
+  margin-top: 20px;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo::after {
+  background: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .call-to-action p {
+  color: #fff;
+}

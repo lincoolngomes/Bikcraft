@@ -214,3 +214,54 @@ p {
 .portfolio .call-to-action p {
   color: #fff;
 }
+
+/* Qualidade */
+
+.qualidade {
+  position: relative;
+}
+
+.qualidade_lista {
+  padding-top: 20px;
+}
+
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 189px;
+  right: 162px;
+  z-index: -1;
+}
+
+.qualidade img {
+  margin: auto;
+  display: block;
+}
+
+.qualidade_lista li {
+  text-align: center;
+  padding: 0 0 40px;
+}
+
+.qualidade_lista h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+}
+
+.qualidade_lista h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 5px auto 5px auto;
+}

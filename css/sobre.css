@@ -1,0 +1,39 @@
+/* Estilos gerais */
+
+.interna-sobre {
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+}
+
+.missao_sobre {
+  padding: 60px 0 10px 0;
+}
+
+.missao_sobre .subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.missao_sobre .subtitulo-interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin-top: 10px;
+}
+
+.foto-equipe {
+  padding-top: 40px;
+}
+
+.missao_sobre p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}

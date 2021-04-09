@@ -1,11 +1,15 @@
 /* Estilos gerais */
 
-.interna-sobre {
+.interna_sobre {
+  width: 100%;
   background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+  margin: auto;
+  padding: 40px;
 }
 
 .missao_sobre {
-  padding: 60px 0 10px 0;
+  padding-top: 60px;
 }
 
 .missao_sobre .subtitulo-interno {
@@ -36,4 +40,10 @@
   line-height: 27px;
   margin-bottom: 1em;
   padding-right: 60px;
+}
+
+.introducao_sobre h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
 }

@@ -135,4 +135,21 @@
   .produto_icone {
     padding: 41px 0;
   }
+
+  /* Contato */
+  .contato {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .contato .form {
+    margin-bottom: 40px;
+  }
+
+  .orcamento_dados ul li {
+    width: 100%;
+    margin-right: 1px;
+
+    text-align: -webkit-center;
+  }
 }

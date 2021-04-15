@@ -39,6 +39,10 @@
     border-color: white;
   }
 
+  .header_menu ul li .menu_selecionado {
+    border-color: white;
+  }
+
   /* Introdução */
 
   .introducao h1 {
@@ -58,5 +62,17 @@
 
   .call-to-action {
     margin-top: -50px;
+  }
+
+  /* Sobre*/
+
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .missao_sobre ul li {
+    line-height: 25px;
   }
 }

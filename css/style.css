@@ -190,6 +190,10 @@ h3,
   text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 .produtos_icone {
   background: black;
   padding: 20px;

@@ -10,6 +10,11 @@ p {
   line-height: 20px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Fonts */
 h1,
 h3,

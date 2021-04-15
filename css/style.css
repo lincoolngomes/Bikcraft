@@ -367,3 +367,12 @@ h3,
   background: #fec63e;
   padding: 20px 0;
 }
+
+.contato_mapa {
+  padding-bottom: 60px;
+}
+
+.contato_mapa img {
+  width: 100%;
+  display: block;
+}

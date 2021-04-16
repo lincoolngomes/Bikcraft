@@ -426,3 +426,19 @@ h3,
 .js [data-slide-nav] button.active {
   background: #fec63e;
 }
+
+.js [data-anime] {
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+/* Voltar ao normal */
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}

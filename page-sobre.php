@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php 
+// Template Name: Sobre
+get_header(); 
+?>
 
 	<section class="interna_sobre introducao-interna ">
 		<div class="container">

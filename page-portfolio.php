@@ -4,13 +4,7 @@ get_header();
 ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<section class="interna_portfolio introducao-interna ">
-		<div class="container">
-			<h1 data-anime="400" class="fadeInDown">Portfólio</h1>
-			<p data-anime="800" class="fadeInDown"">conheça os projetos que amamos mostrar
-			</p>
-		</div>
-	</section>
+<?php include(TEMPLATEPATH . "/inc/introducao.php" ); ?>
 
 	<section class=" container" data-slide="quote">
 			<blockquote class="quote_clientes">

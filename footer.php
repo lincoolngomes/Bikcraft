@@ -46,8 +46,8 @@
   </footer>
 
 
-  <script src="./js/simple-anime.js"></script>
-  <script src="./js/script.js"></script>
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 
   <!-- Inicio Wordpress Footer -->
   <?php wp_footer(); ?>

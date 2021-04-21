@@ -37,10 +37,10 @@
       </a>
       <nav class="header_menu grid-12">
         <ul>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="portfolio.html">Portfólio</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="/sobre">Sobre</a></li>
+          <li><a href="/produtos">Produtos</a></li>
+          <li><a href="/portfolio.html">Portfólio</a></li>
+          <li><a href="/contato.html">Contato</a></li>
         </ul>
       </nav>
     </div>

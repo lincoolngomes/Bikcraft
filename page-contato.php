@@ -3,6 +3,8 @@
 get_header(); 
 ?>
 
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<section class="interna_contato introducao-interna ">
 		<div class="container">
 			<h1 data-anime="400" class="fadeInDown">Contato</h1>
@@ -51,5 +53,6 @@ get_header();
 		</div>
 	</section>
 
+	<?php endwhile; else: endif; ?>
 
 	<?php get_footer(); ?>

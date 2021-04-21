@@ -32,15 +32,15 @@
 
   <header class="header">
     <div class="container">
-      <a href="index.html" class="grid-4">
-        <img src="img/bikcraft.svg" alt="logo">
+      <a href="/" class="grid-4">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/bikcraft.svg" alt="logo">
       </a>
       <nav class="header_menu grid-12">
         <ul>
           <li><a href="/sobre">Sobre</a></li>
           <li><a href="/produtos">Produtos</a></li>
-          <li><a href="/portfolio.html">Portfólio</a></li>
-          <li><a href="/contato.html">Contato</a></li>
+          <li><a href="/portfolio">Portfólio</a></li>
+          <li><a href="/contato">Contato</a></li>
         </ul>
       </nav>
     </div>

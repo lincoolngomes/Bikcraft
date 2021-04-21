@@ -3,6 +3,7 @@
 get_header(); 
 ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <section class="introducao">
     <div class="container">
       <h1 data-anime="400" class="fadeInDown">Bicicletas feitas a mão</h1>
@@ -86,6 +87,8 @@ get_header();
     </div>
 
   </section>
+
+  <?php endwhile; else: endif; ?>
 
   <?php get_footer(); ?>
 

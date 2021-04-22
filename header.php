@@ -6,7 +6,7 @@
   
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
   
-  <script>document.documentElement.classList.add("js");</script>
+  
   <!-- Inicio Wordpress Header -->
   <?php wp_head(); ?>
   <!-- Final Wordpress Header -->

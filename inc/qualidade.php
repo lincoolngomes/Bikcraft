@@ -15,9 +15,11 @@
 				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
 			</li>
 		</ul>
+
+    <?php if (!is_page('sobre')) { ?>
 		<div class="call-to-action">
 			<p>conheça mais a nossa história</p>
 			<div><a href="sobre.html" class="btn btn-preto">Sobre</a></div>
 		</div>
-
+    <?php } ?>
 	</section>

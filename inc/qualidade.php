@@ -1,25 +1,22 @@
+<?php $sobre = get_page_by_title('sobre'); ?>
+
 <section class="qualidade container">
-		<h2 class="subtitulo">Qualidade</h2>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/bikcraft-qualidade.svg" alt="Bikcraft Qualidade">
+		<h2 class="subtitulo"><?php the_field('titulo_qualidade', $sobre); ?></h2>
+		<img src="<?php the_field('logo_bikcraft', $sobre); ?>" alt="Bikcraft Qualidade">
 		<ul class="qualidade_lista">
+    <?php if(have_rows('item_qualidade', $sobre)): while(have_rows('item_qualidade', $sobre)) : the_row(); ?>
 			<li class="grid-1-3">
-				<h3>Durabilidade</h3>
-				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+				<h3><?php the_sub_field('titulo_item_qualidade', $sobre); ?></h3>
+				<p><?php the_sub_field('descricao_item_qualidade', $sobre); ?></p>
 			</li>
-			<li class="grid-1-3">
-				<h3>Design</h3>
-				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
-			</li>
-			<li class="grid-1-3">
-				<h3>Sustentabilidade</h3>
-				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
-			</li>
+      <?php endwhile; else : endif; ?>
+		
 		</ul>
 
     <?php if (!is_page('sobre')) { ?>
 		<div class="call-to-action">
-			<p>conheça mais a nossa história</p>
-			<div><a href="sobre.html" class="btn btn-preto">Sobre</a></div>
+			<p><?php the_field('chamada_sobre', $sobre); ?></p>
+			<div><a href="/sobre" class="btn btn-preto">Sobre</a></div>
 		</div>
     <?php } ?>
 	</section>

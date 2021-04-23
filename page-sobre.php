@@ -9,21 +9,17 @@ get_header();
 	<section data-anime="1200" class="fadeInDown missao_sobre container">
 		<div class="grid-10">
 			<h2 class="subtitulo-interno">História, Missão e Visão</h2>
-			<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte da qual fazemos parte.</p>
-			<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte da qual fazemos parte.</p>
+			<?php the_field('missao'); ?>
 		</div>
 		<div class="grid-6">
 			<h2 class="subtitulo-interno">Valores</h2>
 			<ul>
-				<li>- Qualidade no processo com</li>
-				<li>- Foco no cliente sem perder a</li>
-				<li>- Diversão, preservando a</li>
-				<li>- Natureza com sustentabilidade</li>
+			<?php the_field('valores'); ?>
 			</ul>
 		</div>
 
 		<div class="grid-16 foto-equipe">
-			<img src="img/equipe-bikcraft.jpg" alt="Equipe Bikcraft">
+			<img src="<?php the_field('imagem_equipe'); ?>" alt="Equipe Bikcraft">
 		</div>
 
 	</section>

@@ -1,15 +1,17 @@
 <?php 
 // Template Name: Home
 get_header(); 
+
+$home = get_page_by_title('home');
 ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <section class="introducao">
     <div class="container">
-      <h1 data-anime="400" class="fadeInDown"><?php the_field('titulo_introducao'); ?></h1>
+      <h1 data-anime="400" class="fadeInDown"><?php the_field('titulo_introducao', $home); ?></h1>
       <blockquote data-anime="800" class="fadeInDown quote-externo">
-        <p><?php the_field('quote_introducao'); ?></p>
-        <cite><?php the_field('citacao_introducao'); ?></cite>
+        <p><?php the_field('quote_introducao', $home); ?></p>
+        <cite><?php the_field('citacao_introducao', $home); ?></cite>
       </blockquote>
       <a data-anime="1200" href="/produtos" class="fadeInDown btn">Orçamento</a>
     </div>
@@ -42,7 +44,7 @@ get_header();
       </li>
     </ul>
     <div class="call-to-action">
-      <p><?php the_field('chamada_produtos'); ?></p>
+      <p><?php the_field('chamada_produtos', $home); ?></p>
       <div><a href="/produtos" class="btn btn-preto">Produtos</a></div>
     </div>
 

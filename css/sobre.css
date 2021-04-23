@@ -1,13 +1,5 @@
 /* Estilos gerais */
 
-.interna_sobre {
-  width: 100%;
-  background: url("../img/bg-sobre.jpg") no-repeat center;
-  background-size: cover;
-  margin: auto;
-  padding: 40px;
-}
-
 .missao_sobre {
   padding-top: 60px;
 }

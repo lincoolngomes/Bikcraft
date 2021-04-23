@@ -1,7 +1,17 @@
-<section class="interna_contato introducao-interna ">
+<style type="text/css">
+	.introducao-interna {
+  width: 100%;
+  background: url("<?php the_field('background_interno'); ?>") no-repeat center;
+  background-size: cover;
+  margin: auto;
+  padding: 40px;
+}
+</style>
+
+<section class="introducao-interna ">
 		<div class="container">
 			<h1 data-anime="400" class="fadeInDown"><?php the_title( ); ?></h1>
-			<p data-anime="800" class="fadeInDown">tire suas dúvidas com a gente
+			<p data-anime="800" class="fadeInDown"><?php the_field('subtitulo'); ?>
 			</p>
 		</div>
 	</section>

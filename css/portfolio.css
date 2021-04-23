@@ -1,13 +1,5 @@
 /* Estilos gerais */
 
-.interna_portfolio {
-  width: 100%;
-  background: url("../img/bg-portfolio.jpg") no-repeat center;
-  background-size: cover;
-  margin: auto;
-  padding: 30px;
-  margin-bottom: -20px;
-}
 
 .portfolio {
   padding: 40px 0;

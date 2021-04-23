@@ -68,12 +68,6 @@
     font-size: 36px;
   }
 
-  .introducao {
-    margin-top: 0;
-    padding-top: 20px;
-    background: url("../img/bg-mobile.jpg") no-repeat center;
-  }
-
   .qualidade::after {
     display: none;
     margin: 0 auto;
